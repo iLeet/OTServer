@@ -19,14 +19,14 @@
 #define __DEFINITIONS__
 
 // Compatible with 7.40 to 7.72
-#define SOFTWARE_NAME "OTX Server"
-#define SOFTWARE_VERSION "2"
-#define MINOR_VERSION "X"
-#define PATCH_VERSION "S"
-#define REVISION_VERSION "5"
-#define SOFTWARE_CODENAME "FORGOTTEN"
-#define SOFTWARE_DEVELOPERS "Mattyx14 and The Forgotten Server Developers"
-#define GIT_REPO "https://github.com/mattyx14/otxserver/tree/otxserv2"
+#define SOFTWARE_NAME "iLeet Game Engine"
+#define SOFTWARE_VERSION "1"
+#define MINOR_VERSION "0"
+#define PATCH_VERSION "0"
+#define REVISION_VERSION "1"
+#define SOFTWARE_CODENAME "RETRO"
+#define SOFTWARE_DEVELOPERS "iLeet"
+#define GIT_REPO "https://github.com/iLeet/OTServer"
 
 #if defined(_MULTIPLATFORM77)
 	#define _MULTIPLATFORM76

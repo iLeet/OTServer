@@ -1,24 +1,24 @@
 -- The OTX Server Config
 
 	-- Owner Data
-	ownerName = ""
-	ownerEmail = ""
-	url = ""
-	location = ""
+	ownerName = "iLeet"
+	ownerEmail = "ileet@outlook.com"
+	url = "ileet.ca"
+	location = "Canada"
 
 	-- Messages
-	motd = "Welcome to the OTX Server!"
-	serverName = "OTXSERVER"
-	loginMessage = "Welcome to The OTX Server!"
+	motd = "Server being developed!\n\n!!DEVELOPER ACCESS ONLY!!\nWelcome!"
+	serverName = "DEVSERV"
+	loginMessage = "Welcome to Tibia!"
 	displayGamemastersWithOnlineCommand = false
 
 	-- MySql
 	sqlType = "sqlite"
 	sqlHost = "127.0.0.1"
 	sqlPort = 3306
-	sqlUser = "root"
+	sqlUser = "otx"
 	sqlPass = ""
-	sqlDatabase = ""
+	sqlDatabase = "otxserver"
 	sqlFile = "schemas/otxserver.s3db"
 	sqlKeepAlive = 0
 	mysqlReadTimeout = 10
@@ -76,13 +76,13 @@
 
 	-- Battle
 	-- NOTE: showHealth/ManaChangeForMonsters inherites from showHealth/ManaChange.
-	protectionLevel = 1
+	protectionLevel = 8
 	pvpTileIgnoreLevelAndVocationProtection = true
 	allowFightback = false
 	pzLocked = 60 * 1000
 	huntingDuration = 60 * 1000
 	criticalHitMultiplier = 1
-	displayCriticalHitNotify = true
+	displayCriticalHitNotify = false 
 	removeWeaponAmmunition = true
 	removeWeaponCharges = true
 	removeRuneCharges = true
@@ -164,7 +164,7 @@
 
 		-- Old Configs
 		tileHeightBlock = true
-		useStamina = true
+		useStamina = false --no stamina
 		autoStack = true
 		runesHitTopCreature = false
 		charlistBasicInfo = false
@@ -172,7 +172,7 @@
 		
 		-- ConfigSpells
 		noAttackHealingSimultaneus = true
-		enableCooldowns = true
+		enableCooldowns = false --this is a test
 
 	-- Connection config
 	loginTries = 20
@@ -224,7 +224,7 @@
 	timeBetweenActions = 200
 	timeBetweenExActions = 1000
 	timeBetweenCustomActions = 500
-	checkCorpseOwner = true
+	checkCorpseOwner = true --????
 	maximumDoorLevel = 999
 	tradeLimit = 100
 	canOnlyRopePlayers = false
@@ -232,12 +232,12 @@
 	-- Map
 	-- NOTE: storeTrash costs more memory, but will perform alot faster cleaning.
 	-- houseDataStorage usage may be found at how-use-internal-functions.log
-	mapAuthor = "BrewsterL"
+	mapAuthor = "iLeet"
 	randomizeTiles = true
 	houseDataStorage = "binary-tilebased"
 	storeTrash = true
 	cleanProtectedZones = true
-	mapName = "World.otbm"
+	mapName = "world.otbm"
 
 	-- Mailbox
 	mailMaxAttempts = 5
@@ -314,7 +314,7 @@
 
 	-- Rates
 	experienceStages = false
-	rateExperience = 5.0
+	rateExperience = 1.0
 	rateExperienceFromPlayers = 0
 	levelToOfflineTraining = 8
 	rateSkill = 1.0

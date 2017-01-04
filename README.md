@@ -1,6 +1,6 @@
 Features
 =
-    - Engine: OTX 2.X.S.5 FORGOTTEN: https://github.com/mattyx14/otxserver/tree/otxserv2/path_7_x
+    - Engine: iLeet Modified Tibian Game Engine
     - Real Map 7.72
     - Real Npcs 7.72
     - Real Monsters
@@ -18,6 +18,14 @@ Features
     - Bank system
     - All functions introduced since 7.4 at 9.85 - And many more....
 
+Plans
+=
+	-Disable blessings
+	-Disable green loot msg
+	-Add custom content
+	-Groups
+	
+	
 Compatible AAC:
 =
 
@@ -26,3 +34,7 @@ Compatible AAC:
 [ZnoteAAC](https://github.com/Znote/ZnoteAAC).
 
 [BitAAC](https://github.com/bitaac/bitaac).
+
+
+schemas\mysql.sql
+INSERT INTO `server_motd` VALUES (1, 0, 'Welcome to The OTX Server!');

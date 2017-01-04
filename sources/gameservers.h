@@ -24,7 +24,7 @@
 class GameServer
 {
 	public:
-		GameServer(): name("TheOTXServer"), address(LOCALHOST),
+		GameServer(): name("iLeetServer"), address(LOCALHOST),
 			versionMin(CLIENT_VERSION_MIN), versionMax(CLIENT_VERSION_MAX) {}
 		GameServer(std::string _name, uint32_t _versionMin, uint32_t _versionMax, uint32_t _address, std::vector<int32_t> _ports):
 			name(_name), address(_address), versionMin(_versionMin), versionMax(_versionMax), ports(_ports) {}

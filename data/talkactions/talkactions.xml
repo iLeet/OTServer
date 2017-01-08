@@ -48,7 +48,7 @@
 	<talkaction access="0-4" words="!commands;/commands" event="script" value="commands.lua"/>
 	<talkaction access="0-4" words="!pvp;/pvp" event="script" value="pvp.lua"/>
 	<talkaction access="0-4" words="/software;!software" event="function" value="software"/>
-	<talkaction access="0-4" words="!stamina" event="script" value="stamina.lua"/>
+	<!-- <talkaction access="0-4" words="!stamina" event="script" value="stamina.lua"/> -->
 	<talkaction access="0-4" words="!share;/share" event="script" value="partyshareexp.lua"/>
 
 	<!-- Houses -->
@@ -64,5 +64,5 @@
 	<talkaction access="0-4" words="!createguild;/createguild" event="function" value="guildCreate"/>
 	<talkaction access="0-4" words="!joinguild;/joinguild" event="function" value="guildJoin"/>
 	<talkaction access="0-4" words="/war" channel="0" event="script" value="war.lua"/>
-	<talkaction access="0-4" words="/balance" channel="0" event="script" value="balance.lua"/>
+	<!-- <talkaction access="0-4" words="/balance" channel="0" event="script" value="balance.lua"/> -->
 </talkactions>

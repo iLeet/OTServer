@@ -57,7 +57,7 @@ npcHandler:setMessage(MESSAGE_GREET, 'Hello |PLAYERNAME|. Are you prepared to fa
 local yesNode = KeywordNode:new({'yes'}, oracle, {level = 8})
 local noNode = KeywordNode:new({'no'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, moveup = 1, text = 'Then what vocation do you want to become?'})
 
-local node1 = keywordHandler:addKeyword({'yes'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'What city do you wish to live in? {Thais}, {Carlin} or {Venore}?'})
+local node1 = keywordHandler:addKeyword({'yes'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, text = 'What city do you wish to live in? Thais, Carlin or Venor}?'})
 	local node2 = node1:addChildKeyword({'carlin'}, StdModule.say, {npcHandler = npcHandler, onlyFocus = true, town = 5, destination = {x=32360, y=31782, z=7}, text = 'Carlin, eh? So what vocation do you wish to become? {Sorcerer}, {Druid}, {Paladin} or {Knight}?'})
 		local node3 = node2:addChildKeyword({'sorcerer'}, StdModule.say, {npcHandler = npcHandler, vocation = 1, onlyFocus = true, text = 'So, you wish to be a powerful magician? Are you sure about that? This decision is irreversible!'})
 			node3:addChildKeywordNode(yesNode)

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mod name="Custom Commands" version="1.0" author="Mattyx14" contact="martyx@otland.net" enabled="yes">
-	<!-- News Command -->
+	<!-- News Command 
 	<config name="news-config"><![CDATA[
 		added = {"add", "adicionar", "new"}
 		cleaned = {"clean", "limpar"}
@@ -53,7 +53,7 @@
 
 			return true
 		end
-	]]></talkaction>
+	]]></talkaction> -->
 
 	<!-- Smiles event -->
 	<config name="animated-smiles-config"><![CDATA[
@@ -354,14 +354,14 @@
 
 		function onSay(cid, words, param, channel)
 			if(config.needPremium and not isPremium(cid)) then
-				doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "You need a premium account to get promotion.")
+				doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "You need a premium account to get a promotion.")
 				return true
 			end
 
 			if(getPlayerPromotionLevel(cid) >= config.maxPromotionLevel) then
 				doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "You are already promoted.")
 			elseif(getPlayerLevel(cid) < config.minLevel) then
-				doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "You need " .. config.minLevel .. " to get promotion.")
+				doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "You need to achieve level " .. config.minLevel .. " to get a promotion!")
 			elseif(doPlayerRemoveMoney(cid, config.cost) ~= TRUE) then
 				doPlayerSendTextMessage(cid, MESSAGE_INFO_DESCR, "You do not have enought money! (Promotion cost " .. config.cost .. " gold coins.")
 			else
@@ -373,7 +373,7 @@
 		end
 	]]></talkaction>
 
-	<!-- Me Player Save Command -->
+<!--	<!-- Me Player Save Command
 	<config name="command-save-config"><![CDATA[
 		exhaust = 3 -- in minutes
 		storage = 3003 -- storage value used to save exhaustion
@@ -402,8 +402,8 @@
 
 			return true
 		end
-	]]></talkaction>
-
+	]]></talkaction> -->
+	
 	<!-- Guild Cast Command -->
 	<config name="guild-cast-config"><![CDATA[
 		exhaust = 10 -- in seconds
@@ -536,7 +536,7 @@
 		end
 	]]></talkaction>
 
-	<!-- Buy Command -->
+	<!-- Buy Command 
 	<config name="command-buy-config"><![CDATA[
 		items = {
 			['brown backpack'] = {cost = 500, id = 1988},
@@ -587,7 +587,7 @@
 
 			return true
 		end
-	]]></talkaction>
+	]]></talkaction> -->
 
 	<!-- Send animated text -->
 	<talkaction words="!me;/me" event="buffer" value="doCreatureSay(cid, getCreatureName(cid) .. ' ' .. param, TALKTYPE_MONSTER)"/>
@@ -691,7 +691,7 @@
 		end
 	]]></talkaction>
 
-	<talkaction words="!exp" event="script"><![CDATA[
+	<!-- <talkaction words="!exp" event="script"><![CDATA[
 		function onSay(cid, words, param, channel)
 			local expinfo = getPlayerExperience(cid)
 			if (words == "!exp") then
@@ -700,7 +700,7 @@
 
 			return true
 		end
-	]]></talkaction>
+	]]></talkaction> -->
 
 	<!-- GiveReward Item to player -->
 	<talkaction words="/giveitem" group="4" access="3" event="script" log="yes"><![CDATA[
@@ -909,7 +909,7 @@
 		end
 	]]></talkaction>
 
-	<!-- Rename Command -->
+	<!-- Rename Command 
 	<config name="rename-config"><![CDATA[
 		blacklistParam = {"account manager", "god", "cm", "gm", "tutor", "tester"}
 		maxTextLenght = 15
@@ -989,5 +989,5 @@
 
 			return true
 		end
-	]]></talkaction>
+	]]></talkaction -->
 </mod>

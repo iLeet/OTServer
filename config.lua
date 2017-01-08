@@ -17,7 +17,7 @@
 	sqlHost = "127.0.0.1"
 	sqlPort = 3306
 	sqlUser = "otx"
-	sqlPass = ""
+	sqlPass = "FmnaoUCTA7XgKLUj"
 	sqlDatabase = "otxserver"
 	sqlFile = "schemas/otxserver.s3db"
 	sqlKeepAlive = 0
@@ -224,7 +224,7 @@
 	timeBetweenActions = 200
 	timeBetweenExActions = 1000
 	timeBetweenCustomActions = 500
-	checkCorpseOwner = true --????
+	checkCorpseOwner = false --????
 	maximumDoorLevel = 999
 	tradeLimit = 100
 	canOnlyRopePlayers = false
@@ -303,7 +303,7 @@
 	updatePremiumStateAtStartup = true
 
 	-- Blessings
-	blessings = true
+	blessings = false --disabled
 	blessingOnlyPremium = true
 	blessingReductionBase = 30
 	blessingReductionDecrement = 5

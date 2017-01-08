@@ -7,7 +7,7 @@ Features
     - Real Spells
     - CastSystem (Reqired create account with number "10")
     - AntiDupe Items
-    - WarSystem (Withouth Shields)
+    - WarSystem (Withouth Shields) -CURRENTLY DISABLED-
     - AutoStack
     - Offiline Training
     - Stamina (Work with !stamina)
@@ -20,11 +20,18 @@ Features
 
 Plans
 =
-	-Disable blessings
+	-Disable blessings (COMPLETE)
 	-Disable green loot msg
 	-Add custom content
 	-Groups
+	-Sorcs and Druids need first wand/rod free!
+	-Summoning rune!?
+	-Learn spells from npc
 	
+Bugs
+=
+	-Energy Fields don't decay
+	-!exp bugged (DISABLED)
 	
 Compatible AAC:
 =

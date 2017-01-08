@@ -7,18 +7,18 @@
 	location = "Canada"
 
 	-- Messages
-	motd = "Server being developed!\n\n!!DEVELOPER ACCESS ONLY!!\nWelcome!"
-	serverName = "DEVSERV"
-	loginMessage = "Welcome to Tibia!"
+	motd = "Server being developed!\n\n!!DEVELOPER ACCESS ONLY!!\nWelcome Developer!"
+	serverName = "Restoria"
+	loginMessage = "Welcome to Restoria!"
 	displayGamemastersWithOnlineCommand = false
 
 	-- MySql
-	sqlType = "sqlite"
+	sqlType = "mysql"
 	sqlHost = "127.0.0.1"
 	sqlPort = 3306
-	sqlUser = "otx"
-	sqlPass = "FmnaoUCTA7XgKLUj"
-	sqlDatabase = "otxserver"
+	sqlUser = "otslogin"
+	sqlPass = "uJiveSK9S94WDAVH"
+	sqlDatabase = "restoria"
 	sqlFile = "schemas/otxserver.s3db"
 	sqlKeepAlive = 0
 	mysqlReadTimeout = 10
@@ -28,7 +28,7 @@
 
 	-- World / Ip / Port
 	worldId = 0
-	ip = "127.0.0.1"
+	ip = "192.168.1.115"
 	worldType = "open"
 	bindOnlyGlobalAddress = false
 	loginPort = 7171

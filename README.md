@@ -5,6 +5,7 @@ Features
     - Real Npcs 7.72
     - Real Monsters
     - Real Spells
+	- Bless (Disabled)
     - CastSystem (Reqired create account with number "10")
     - AntiDupe Items
     - WarSystem (Withouth Shields) -CURRENTLY DISABLED-
@@ -20,13 +21,12 @@ Features
 
 Plans
 =
-	-Disable blessings (COMPLETE)
-	-Disable green loot msg
-	-Add custom content
+	-Disable green loot msg (Maybe)
 	-Groups
-	-Sorcs and Druids need first wand/rod free! (already implented, ask for 'first wand/rod')
 	-Summoning rune!?
 	-Learn spells from npc
+	-Disable runes in battlelist
+	-OTClient splash/UI/music needs to be changed
 	
 Bugs
 =
@@ -41,7 +41,3 @@ Compatible AAC:
 [ZnoteAAC](https://github.com/Znote/ZnoteAAC).
 
 [BitAAC](https://github.com/bitaac/bitaac).
-
-
-schemas\mysql.sql
-INSERT INTO `server_motd` VALUES (1, 0, 'Welcome to The OTX Server!');

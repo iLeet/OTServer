@@ -24,7 +24,7 @@ Plans
 	-Disable green loot msg
 	-Add custom content
 	-Groups
-	-Sorcs and Druids need first wand/rod free!
+	-Sorcs and Druids need first wand/rod free! (already implented, ask for 'first wand/rod')
 	-Summoning rune!?
 	-Learn spells from npc
 	

@@ -536,7 +536,7 @@
 		end
 	]]></talkaction>
 
-	<!-- Buy Command 
+	<!-- Buy Command  -->
 	<config name="command-buy-config"><![CDATA[
 		items = {
 			['brown backpack'] = {cost = 500, id = 1988},
@@ -587,7 +587,7 @@
 
 			return true
 		end
-	]]></talkaction> -->
+	]]></talkaction>
 
 	<!-- Send animated text -->
 	<talkaction words="!me;/me" event="buffer" value="doCreatureSay(cid, getCreatureName(cid) .. ' ' .. param, TALKTYPE_MONSTER)"/>
@@ -989,5 +989,5 @@
 
 			return true
 		end
-	]]></talkaction -->
+	]]></talkaction> -->
 </mod>

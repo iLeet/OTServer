@@ -27,6 +27,7 @@ Plans
 	-Learn spells from npc
 	-Disable runes in battlelist
 	-OTClient splash/UI/music needs to be changed
+	-BATTLE LIST MUST BE DISABLED
 	
 Bugs
 =

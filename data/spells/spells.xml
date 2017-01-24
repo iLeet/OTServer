@@ -78,7 +78,7 @@
 		<vocation name="Sorcerer"/> <vocation name="Master Sorcerer"/>
 		<vocation name="Druid"/>    <vocation name="Elder Druid"/>
 	</instant>
-	<instant name="Summon Creature" words="utevo res" needlearn="0" lvl="25" maglv="16" params="1" function="summonMonster">
+	<instant name="Summoning Spell" words="utevo res" needlearn="0" lvl="25" maglv="16" params="1" function="summonMonster">
 		<vocation name="Sorcerer"/> <vocation name="Master Sorcerer"/>
 		<vocation name="Druid"/>    <vocation name="Elder Druid"/>
 	</instant>

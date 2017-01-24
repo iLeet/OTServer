@@ -163,7 +163,7 @@
 		exhaustionInSecondsNPC = 0.5
 
 		-- Old Configs
-		tileHeightBlock = true
+		tileHeightBlock = false
 		useStamina = false --no stamina
 		autoStack = true
 		runesHitTopCreature = false
@@ -268,7 +268,7 @@
 	logsDirectory = "data/logs/"
 	disableOutfitsForPrivilegedPlayers = false
 	bankSystem = true
-	spellNameInsteadOfWords = false
+	spellNameInsteadOfWords = true
 	emoteSpells = false
 	unifiedSpells = true
 	promptExceptionTracerErrorBox = true
